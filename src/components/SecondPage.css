@@ -37,6 +37,11 @@
   cursor: pointer;
 }
 
+.skip-button {
+  color: #00ADEF;
+  text-decoration: none;
+}
+
 .next-button {
   background-color: #007bff;
   color: white;

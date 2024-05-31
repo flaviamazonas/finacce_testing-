@@ -6,14 +6,14 @@ const FourthPage = () => {
   const [selectedObjectives, setSelectedObjectives] = useState([]);
 
   const objectives = [
-    { id: 1, label: 'Poupar mais ou começar a poupar', icon: 'poupar.png' },
-    { id: 2, label: 'Organizar minhas despesas', icon: 'organizar.png' },
-    { id: 3, label: 'Eliminar Dívidas', icon: 'dividas.png' },
-    { id: 4, label: 'Mudar hábitos financeiros', icon: 'habitos.png' },
-    { id: 5, label: 'Controlar compras compulsivas', icon: 'ccompulsivas.png' },
-    { id: 6, label: 'Atingir um objetivo financeiro', icon: 'objetivo.png' },
-    { id: 7, label: 'Melhorar minha pontuação de Crédito', icon: 'credito.png' },
-    { id: 8, label: 'Apenas quero testar o aplicativo', icon: 'testar.png' },
+    { id: 1, label: 'Poupar mais ou começar a poupar', icon: './assets/poupar.png' },
+    { id: 2, label: 'Organizar minhas despesas', icon: './assets/organizar.png' },
+    { id: 3, label: 'Eliminar Dívidas', icon: './assets/dividas.png' },
+    { id: 4, label: 'Mudar hábitos financeiros', icon: './assets/habitos.png' },
+    { id: 5, label: 'Controlar compras compulsivas', icon: './assets/ccompulsivas.png' },
+    { id: 6, label: 'Atingir um objetivo financeiro', icon: './assets/objetivo.png' },
+    { id: 7, label: 'Melhorar minha pontuação de Crédito', icon: './assets/credito.png' },
+    { id: 8, label: 'Apenas quero testar o aplicativo', icon: './assets/testar.png' },
   ];
 
   const toggleObjective = (id) => {
