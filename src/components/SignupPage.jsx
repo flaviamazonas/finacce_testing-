@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './SignupPage.css'; 
 
 const SignupPage = () => {
@@ -10,7 +11,7 @@ const SignupPage = () => {
     gender: '',
     email: ''
   });
-
+  const navigate = useNavigate();
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -23,6 +24,8 @@ const SignupPage = () => {
     e.preventDefault();
     
     console.log(formData);
+
+    navigate('/signup-step-two');
   };
 
   return (
